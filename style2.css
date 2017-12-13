@@ -1,0 +1,65 @@
+.sectionwrapper {
+    margin: 75px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    background-color: #edd4d3;
+}
+
+/*******************HEADER START**********/
+
+.header {
+    padding: 6em;
+    text-align: right;
+    width: 100vw;
+    height: .5vw;
+    background: linear-gradient(to bottom, rgba(44, 122, 203, 0.99) 0%, rgba(0, 0, 0, 0) 90%);
+
+}
+
+header nav a:hover {
+
+    color: #1d7e21;
+    text-decoration: underline;
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-right: 4px;
+}
+
+
+
+header nav {
+    text-align: center;
+    margin: -75px -50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .sider {
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+    }
+}
+
+.sectionwrapper img {
+    width: 90%;
+    height: 90%;
+
+}
+
+.splash img {
+    width: 100%;
+    height: 100;
+}
+
+.h1 {
+    justify-content: center;
+    position:
+}
